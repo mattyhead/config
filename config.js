@@ -264,7 +264,7 @@
         }
       }
     },
-    cyclomedia: {
+/*    cyclomedia: {
       host: '10.8.101.67',
       username: 'maps@phila.gov',
       // there's no way to initialize the streetsmart api without sending this to the client, so it has to be in here.
@@ -282,7 +282,7 @@
     },
     carto: {
       baseUrl: '//phl.carto.com/api/v2/sql',
-    },
+    },*/
     // pictometry: {
     //   host: 'atlas-dev.phila.gov',
     //   apiKey: 'D33AB30CEC52FC1B2EB1F4BED47C47A1',
