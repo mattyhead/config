@@ -13,18 +13,6 @@
         gatekeeperKey: GATEKEEPER_KEY,
         include_units: true
       }
-      // },
-      // reverse: {
-      //   direction: 'reverse',
-      //   // TODO uri encode
-      //   url: function (input) {
-      //     return '//api.phila.gov/ais/v1/reverse_geocode/' + input;
-      //   },
-      //   params: {
-      //     gatekeeperKey: GATEKEEPER_KEY,
-      //     include_units: true
-      //   }
-      // }
     },
     map: {
       center: [39.953338, -75.163471],
@@ -264,44 +252,5 @@
         }
       }
     },
-/*    cyclomedia: {
-      host: '10.8.101.67',
-      username: 'maps@phila.gov',
-      // there's no way to initialize the streetsmart api without sending this to the client, so it has to be in here.
-      password: 'mapscyc01',
-      apiKey: 'GfElS3oRuroNivgtibsZqDkpCvItyPUNuv0NmXglen8puXoJanEVarsZyns9ynkJ',
-      // this has to be https
-      recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs'
-    },
-    pictometry: {
-      host: 'atlas.phila.gov',
-      apiKey: 'B8A0CA65484E649E1FD92880E8F3DF29',
-      // again, this is necessary to start the pictometry ipa viewer.
-      secretKey: '3E9764B6E2F443FC9EBA7FEC4114AAA84FA9013E914A53F389B753C52AFD404ED0A11E1001C6F663B5D0AC451517C593D600607517CB937CEA5A5C5E9ABEAB5A6D1C31717D2BA16E35E3682F2F9C1186AF570588EAC80DDFB8D04B1C4D938F76C9D3704B557A240A5BC7393D55B6E044889C1E6EB87D19B969F6E416F574CEF7',
-      iframeId: 'pictometry-ipa'
-    },*/
-    carto: {
-      baseUrl: '//phl.carto.com/api/v2/sql',
-    },
-    // pictometry: {
-    //   host: 'atlas-dev.phila.gov',
-    //   apiKey: 'D33AB30CEC52FC1B2EB1F4BED47C47A1',
-    //   // again, this is necessary to start the pictometry ipa viewer.
-    //   secretKey: 'E82CC81FCC6427E5D48882CC2F53690DDCE4CD789A2304FAE92F7906FBEDFD48469E002DCAF34A6F88DFFF8A194F50AD03FE5C25458B9C023F9EBA90F7B42B7B50344EA10BE2492476187AC190CA3795322F399CFCF7B085C453AF61F9C21E83CE307703B496BAFE76198A9E710E08AA720CBC60627E0022F6D42C4461605B83',
-    //   iframeId: 'pictometry-ipa'
-    // },
-    // carto: {
-    //   baseUrl: '//phl.carto.com/api/v2/sql',
-    // },
-    // pictometry: {
-    //   host: '10.8.101.67',
-    //   apiKey: 'FC263F1985BF2DBDADBEB3B5BAA74EAE',
-    //   // again, this is necessary to start the pictometry ipa viewer.
-    //   secretKey: '132968F728EAB2957EB9689A9CC5B4B55BA4347E4E3A43FC782C7B154321EEC109612716E13858136CBE83769FDC64BA17BFC26B831F925816E1BF4AA8B25FD01414550B0CE4BFAC751C57EC81C8F5096D0092AE12F953B90CD6CDC7C2CCFC7A80BF2C41EE5C85578A1075B6DD4571EFF95ADE0FFBC169EA24718AEBC056CB10',
-    //   iframeId: 'pictometry-ipa'
-    // },
-    // carto: {
-    //   baseUrl: '//phl.carto.com/api/v2/sql',
-    // },
   };
 })();
