@@ -279,10 +279,10 @@
       // again, this is necessary to start the pictometry ipa viewer.
       secretKey: '3E9764B6E2F443FC9EBA7FEC4114AAA84FA9013E914A53F389B753C52AFD404ED0A11E1001C6F663B5D0AC451517C593D600607517CB937CEA5A5C5E9ABEAB5A6D1C31717D2BA16E35E3682F2F9C1186AF570588EAC80DDFB8D04B1C4D938F76C9D3704B557A240A5BC7393D55B6E044889C1E6EB87D19B969F6E416F574CEF7',
       iframeId: 'pictometry-ipa'
-    },
+    },*/
     carto: {
       baseUrl: '//phl.carto.com/api/v2/sql',
-    },*/
+    },
     // pictometry: {
     //   host: 'atlas-dev.phila.gov',
     //   apiKey: 'D33AB30CEC52FC1B2EB1F4BED47C47A1',
